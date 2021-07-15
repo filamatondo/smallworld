@@ -1,0 +1,175 @@
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* Body */
+
+.header {
+  background-color: rgb(1, 112, 116);
+  height: 100px;
+
+
+}
+
+/* la balise header  */
+
+.Small {
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  color: #fff;
+
+}
+
+/* la classe small  qui est le titre de ma page small world*/
+
+.conne {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* la classe conne qui est dans le parent Nav. */
+
+
+
+.mdp {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* code de carte la session active*/
+
+
+.toto {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 70px;
+}
+
+/* Le Code du Mot de passe oublier */
+
+.gs {
+  font-size: 15PX;
+}
+
+/* gS class */
+
+
+
+.gsd {
+  color: #fff;
+  font-size: 10px;
+  margin-right: 80px;
+  margin-top: 15px;
+}
+
+/* Le Code du Mot de passe oublier */
+
+
+.Email {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* class email */
+
+.Mot {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* class mot */
+
+
+
+.francais {
+  width: 30px;
+  height: 20px;
+  margin-left: 90%;
+  /* margin-top: -40px; */
+
+}
+
+
+
+
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-size: 40px;
+  color: rgba(59, 89, 152);
+  height: 5px;
+
+
+}
+
+/* titre h2 */
+
+
+.formulaire {
+
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+
+}
+
+/* class formulaire */
+
+
+.date {
+  color: #1d212d;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* la class date */
+
+
+.sex {
+  text-align: center;
+  font-size: 19px;
+  color: black;
+  border-bottom: blue;
+}
+
+/* la class sex */
+
+
+.champ {
+  text-align: center;
+  height: 30px;
+  width: 220px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* class champ */
+
+.message {
+  text-align: center;
+  color: gray;
+}
+
+/* class message */
+
+.connexion {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+/* class connexion */
+
+
+.inscrire {
+  height: 50px;
+  background-color: rgb(5, 107, 99);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+}

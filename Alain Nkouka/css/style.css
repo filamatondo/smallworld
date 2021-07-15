@@ -1,0 +1,32 @@
+body {     background-color: #c6de7b; }
+div#app {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 16px;
+}
+.liste {
+    background-color: #e7e7e7;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 0px #3434347a;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    padding: 6px;
+    background-color: #fff;
+    margin-bottom: 6px;
+}
+
+.green:after {
+    content: "-------";
+    height: 12px;
+    display: inline-block;
+    margin-left: 6px;
+    border-radius: 6px;
+    background-color: green;
+    color: green;
+}

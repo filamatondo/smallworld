@@ -1,0 +1,78 @@
+body{
+  background-color:#DCDCDC;
+  margin: 0px;
+}
+
+
+header{ 
+  background-color:rgb(1, 112, 116);
+  border-bottom-color: black;
+  margin: 0px;
+  border-bottom-color:#ffffff;
+  height: 70px;
+  /* height: 50px; */
+}
+
+
+h1{
+  color:#fff;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* titre h1 */
+
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+/* TITRE H2 */
+
+
+main{
+  background-color: #fff;
+  height: 300px;
+  width: 1190px;
+  border-radius: 20px; 
+  margin:45px;
+   justify-content: center;
+}
+/*  Le Main est le parent du bas de la page, dans cette parti j'ai le formulaire 
+qui me permet
+ de modifier le mot de passe, l'utilisateur peut bien modifier le mot de passe */
+
+.forr{
+  font-size: 24px;
+  text-align: center; 
+  margin:0px;
+}
+/* forr est le nom de la classe que j'ai attibué à la classe de form. 
+avec cette classe, j'ai bien ajuster mon texte au centre, la taille du 
+ taille  ainsi que la marge*/
+
+ .champ{
+  height: 40px;
+  width: 250px;
+  margin-top: 40px;
+  text-align: center;
+}
+/* champ est la classe des div des input */
+
+.Record{
+  text-align: center;
+  margin-top: 20px;
+
+}
+/* touche connexion */
+
+.submit{
+  height: 50px;
+  width: 80px;
+  background-color: rgb(1, 112, 116);
+  color:#fff;
+  border-radius: 30px;
+  font-size:15px;
+}
+/* touche connexion */

@@ -1,0 +1,303 @@
+body {
+    background-color: rgb(1, 112, 116);
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* code du Body, et le margin & padding */
+  
+  header .navbar-expand-lg {
+  
+    height: 70px;
+    background-color: #fff;
+  }
+  
+  /* couleur de ma navbar et la taille  */
+  
+  header .navbar-expand-lg h1 {
+    font-size: 30px;
+    color: blue;
+  }
+  
+  /* Mon titre H1 ainsi que la couleur */
+  
+  
+  
+  .btn-secondary {
+    background-color: #fff;
+    width: 65%;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-color: #fff;
+    color: #fff;
+    margin: 50px;
+    
+  }
+  
+  /* Logo de ma navbar, message, accueil, Notification, profil, localisation, paramètres. */
+  
+  .d-flex {
+    margin-left: 50px;
+    width: 90%;
+    border-color: black;
+    margin: 1rem;
+  }
+  
+  /* input */
+  
+  .btn-outline-success {
+    margin-left: 2px;
+  
+  }
+  
+  /* input */
+  
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    z-index: 40;
+  }
+  
+  /* Menu déroulant */
+  
+  .col {
+    position: absolute;
+    z-index: 30;
+  }
+  
+  /* Menu déroulant */
+  
+  
+  
+  .div1 {
+    height: 20px;
+    width: 20px;
+  
+  }
+  
+  /* Taille du logo Message */
+  
+  
+  .message {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu message */
+  
+  
+  
+  .div2 {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+  }
+  
+  /* Taille du logo notification */
+  
+  
+  .notification {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu notification */
+  
+  
+  .div3 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo profil */
+  
+  .profil {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu profil */
+  
+  .div4 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Accueil */
+  
+  .accueil {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu accueil */
+  
+  .div5 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Paramètres */
+  
+  
+  .paramètres {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu Paramètres */
+  
+  
+  .div6 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Localisation */
+  
+  .localisation {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu Localisation */
+  
+  
+  
+  
+  
+  /* PARTI NAV  => */
+  
+  
+  
+  
+  .row-cols-2 {
+    text-align: center;
+    justify-content: center
+  }
+  
+  /* parti nav, la classe row-cols de bootstrap */
+  
+  
+  
+  .p-3 {
+  
+    width: 15%;
+    font-size: 20px;
+    background-color: #fff;
+    margin-top: 140px;
+    height: 45%;
+    left: 3%;
+    border-radius: 20px;
+  }
+  
+  /* P-3 EST  le coté profil de la page d'accueil qui est situer à gauche */
+  
+  
+  
+  
+  .p-4 {
+    width: 250%;
+    font-size: 50px;
+    background-color: #fff;
+    margin-top: 70px;
+    height: 58%;
+    border-radius: 20px;
+    margin-left: -104%;
+    margin-top: 105px;
+  }
+  
+  /*  Menu centre de ma page d'accueil */
+  
+  
+  
+  .part {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    height: 80px;
+  }
+  
+  
+  .col .p-5 {
+    text-align: center;
+    width: 25%;
+    font-size: 50px;
+    background-color: #fff;
+    margin-top: 380px;
+    height: 75%;
+    margin: 140px;
+    border-radius: 20px;
+    margin-left: 72%;
+    color: black;
+  }
+  /*  Menu à droit Situer à l'accueil */
+  
+  
+  
+  /*  Parti Nav  */
+  
+  .para h2{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  /* titre H2 */
+  
+  
+.para h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* titre H2 */
+
+.parametres{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin: 3rem;
+  background-color: #fff;
+  width: 92%;
+  height: 180px;
+  
+}
+/* Parent du bouton, vos information et modifier */
+
+
+  
+  
+  
+  .info{
+    display: flex;
+  }
+  
+  
+  .modifier{
+    margin-left: 33.8%;
+  }
+  
+  .inf{
+    margin-left: 40.5%;
+  }
+  
+  .langua{
+    display: flex;
+  }
+  
+  .lang{
+    margin-left: 41.5%;
+  }
+  
+  .bloc{
+    display: flex;
+  }
+  
+  
+  
+  

@@ -1,0 +1,61 @@
+body{
+  background-color:#DCDCDC;
+  margin: 0px;
+}
+/* body  */
+
+header{ 
+  background-color:rgb(1, 112, 116);
+  border-bottom-color: black;
+  margin: 0px;
+  border-bottom-color:#ffffff;
+  height: 70px;
+  /* height: 50px; */
+}
+
+
+h1{
+  color:#fff;
+  margin: 0px;
+  margin-left: 10px;
+}
+/* titre de la page  */
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+ /* 2ieme titre */
+
+
+form{
+  background-color: #fff;
+  height: 200px;
+  width: 1130px;
+  border-radius: 20px;
+  text-align: center; 
+  margin: 80px;
+}
+/* La classe forme  */
+
+
+.champ{
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  margin-top: 50px;
+}
+/* classe champ inpt  */
+
+.submit{
+  height: 50px;
+  width: 80px;
+  background-color:rgb(1, 112, 116);
+  color:#fff;
+  border-radius: 30px;
+  font-size:20px;
+  margin-top: 20px;
+}
+ 
+/* la touche connexion  */

@@ -1,0 +1,219 @@
+body {
+  background-color: rgb(1, 112, 116);
+  margin: 0px;
+  padding: 0px;
+}
+
+/* code du Body, et le margin & padding */
+
+header .navbar-expand-lg {
+
+  height: 70px;
+  background-color: #fff;
+}
+
+/* couleur de ma navbar et la taille  */
+
+header .navbar-expand-lg h1 {
+  font-size: 30px;
+  color: blue;
+}
+
+/* Mon titre H1 ainsi que la couleur */
+
+.dropdown-item{
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  width: 65%;
+  height: 55px;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-color: #fff;
+  color: #fff;
+  margin: 50px;
+  
+}
+
+/* Logo de ma navbar, message, accueil, Notification, profil, localisation, paramètres. */
+
+.d-flex {
+  margin-left: 50px;
+  width: 90%;
+  border-color: black;
+  margin: 1rem;
+}
+
+/* input */
+
+.btn-outline-success {
+  margin-left: 2px;
+
+}
+
+/* input */
+
+
+
+ /* .dropdown-menu {
+  position: absolute;
+  z-index: 30;
+}
+
+/* Menu déroulant */
+ /* .col {
+  position: absolute;
+  z-index: 30; 
+}  */ 
+
+/* Menu déroulant */
+
+
+
+.div1 {
+  height: 20px;
+  width: 20px;
+
+}
+
+/* Taille du logo Message */
+
+
+.message {
+  font-size: 12px;
+  color: black;
+}
+
+/*  Menu message */
+
+
+
+.div2 {
+  height: 20px;
+  width: 20px;
+  font-size: 15px;
+}
+
+/* Taille du logo notification */
+
+
+.notification {
+  font-size: 12px;
+  color: black;
+}
+
+/*  Menu notification */
+
+
+.div3 {
+  height: 20px;
+  width: 20px;
+}
+
+/* Taille du logo profil */
+
+.profil {
+  font-size: 12px;
+  color: black;
+}
+
+/*  Menu profil */
+
+.div4 {
+  height: 20px;
+  width: 20px;
+}
+
+/* Taille du logo Accueil */
+
+.accueil {
+  font-size: 12px;
+  color: black;
+}
+
+/*  Menu accueil */
+
+.div5 {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+.div6 {
+  height: 20px;
+  width: 20px;
+}
+
+/* Taille du logo Localisation */
+
+.localisation {
+  font-size: 12px;
+  color: black;
+}
+
+/*  Menu Localisation */
+
+
+
+
+
+
+/*  Parti Nav  */
+
+.para h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* titre H2 */
+
+.parametres{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin: 3rem;
+  background-color: #fff;
+  width: 92%;
+  height: 180px;
+  
+}
+/* Parent du bouton, vos information et modifier */
+
+
+
+
+
+.info{
+  display: flex;
+}
+
+
+.modifier{
+  margin-left: 34.8%;
+}
+
+.inf{
+  margin-left: 40%;
+}
+
+.langua{
+  display: flex;
+}
+
+.lang{
+  margin-left: 41.5%;
+}
+
+.bloc{
+  display: flex;
+}
+
+
+

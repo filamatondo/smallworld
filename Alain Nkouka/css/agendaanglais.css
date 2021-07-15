@@ -1,0 +1,308 @@
+body {
+    background-color: #DCDCDC;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* code du Body, et le margin & padding */
+  
+  header .navbar-expand-lg {
+  
+    height: 70px;
+    background-color: #fff;
+  }
+  
+  /* couleur de ma navbar et la taille  */
+  
+  header .navbar-expand-lg h1 {
+    font-size: 30px;
+    color: blue;
+  }
+  
+  /* Mon titre H1 ainsi que la couleur */
+  
+  
+  
+  .btn-secondary {
+    background-color: #fff;
+    width: 65%;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-color: #fff;
+    color: cornsilk
+  }
+  
+  /* Logo de ma navbar, message, accueil, Notification, profil, localisation, paramètres. */
+  
+  .d-flex {
+    margin-left: 50px;
+    width: 90%;
+    border-color: black;
+    margin: 1rem;
+  }
+  
+  /* input */
+  
+  .btn-outline-success {
+    margin-left: 2px;
+  
+  }
+  
+  /* input */
+  
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    z-index: 40;
+  }
+  
+  /* Menu déroulant */
+  
+  .col {
+    position: absolute;
+    z-index: 30;
+  }
+  
+  /* Menu déroulant */
+  
+  
+  
+  .div1 {
+    height: 20px;
+    width: 20px;
+  
+  }
+  
+  /* Taille du logo Message */
+  
+  
+  .message {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu message */
+  
+  
+  
+  .div2 {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+  }
+  
+  /* Taille du logo notification */
+  
+  
+  .notification {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu notification */
+  
+  
+  .div3 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo profil */
+  
+  .profil {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu profil */
+  
+  .div4 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Accueil */
+  
+  .accueil {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu accueil */
+  
+  .div5 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Paramètres */
+  
+  
+  .paramètres {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu Paramètres */
+  
+  
+  .div6 {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Taille du logo Localisation */
+  
+  .localisation {
+    font-size: 12px;
+    color: black;
+  }
+  
+  /*  Menu Localisation */
+  
+  
+  
+  
+  
+  /* PARTI NAV  => */
+  
+  
+  
+  
+  .row-cols-2 {
+    text-align: center;
+    justify-content: center
+  }
+  
+  /* parti nav, la classe row-cols de bootstrap */
+  
+  
+  
+  .p-3 {
+  
+    width: 15%;
+    font-size: 20px;
+    background-color: #fff;
+    margin-top: 140px;
+    height: 45%;
+    left: 3%;
+    border-radius: 20px;
+  }
+  
+  /* P-3 EST  le coté profil de la page d'accueil qui est situer à gauche */
+  
+  
+  
+  
+  .p-4 {
+    width: 250%;
+    font-size: 50px;
+    background-color: #fff;
+    margin-top: 70px;
+    height: 58%;
+    border-radius: 20px;
+    margin-left: -104%;
+    margin-top: 105px;
+  }
+  
+  /*  Menu centre de ma page d'accueil */
+  
+  
+  
+  .part {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    height: 80px;
+  }
+  
+  
+  .col .p-5 {
+    text-align: center;
+    width: 25%;
+    font-size: 50px;
+    background-color: #fff;
+    margin-top: 380px;
+    height: 75%;
+    margin: 140px;
+    border-radius: 20px;
+    margin-left: 72%;
+    color: black;
+  }
+  /*  Menu à droit Situer à l'accueil */
+  
+  
+  /* Parti JQuery pour publier le message*/
+  
+ /* input et le  message  ajouter un Agenda*/
+
+
+ h3{
+  text-align: center;
+   font-size: 30px;
+   color: #fff;
+   margin-top: 60px;
+}
+
+.age{
+  background-color:teal;
+}
+
+
+.agenda{
+  height: 35px;
+  width: 200px;
+  margin: 20px;
+ text-align: center;
+ margin-top: -99px;
+
+}
+
+#app {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 16px;
+  width:2px;
+  font-size: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  border-bottom: honeydew;
+}
+
+/* menu fils, input de ma liste  */
+
+.liste {
+  background-color: #6d2de6;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 0px #3605057a;
+  padding: 8px;
+  color: #fff;
+  margin: 10px;
+  border-bottom: honeydew;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+ul li {
+  padding: 6px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  color: black;
+  font-size: 15px;
+}
+
+.green:after {
+  content: "-------";
+  height: 12px;
+  display: inline-block;
+  margin-left: 6px;
+  border-radius: 10px;
+  background-color: #008000;
+}

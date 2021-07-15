@@ -1,0 +1,65 @@
+body{
+  background-color:#DCDCDC;
+  margin: 0px;
+}
+/* body */
+
+header{ 
+  background-color:rgb(1, 112, 116);
+  border-bottom-color: black;
+  margin: 0px;
+  border-bottom-color:#ffffff;
+  height: 70px;
+  /* height: 50px; */
+}
+
+/* classe header */
+
+
+h1{
+  color:#fff;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* titre h1 */
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* titre h2  */
+
+form{
+  background-color: #fff;
+  height: 200px;
+  width: 1130px;
+  border-radius: 20px; 
+  margin: 80px;
+  text-align: center;
+}
+ /* balise form */
+
+
+.champ{
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* champ qui est le fils de la balise form, champ est la class des input */
+
+.submit{
+  height: 50px;
+  width: 80px;
+  background-color: rgb(1, 112, 116);
+  color:#fff;
+  border-radius: 30px;
+  font-size:20px;
+  margin-top: 20px;
+}
+/* button connexion */
+ 
