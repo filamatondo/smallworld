@@ -24,58 +24,62 @@
 
 <body>
   <header>
-    <div class="header">
-      <a href="#"><span class="Small"> Small World </span></a>
 
+    <div class="header">
+
+      <a href="#">
+        <h1 class="Small"> Small World </h1>
+      </a>
       <!-- Titre de l'application-->
 
       <nav class="conne">
+
         <form action="connexionfrancais.html" method="POST">
+
           <div class="email">
-
-            <label class="Email">Email</label>
-            <input type="email" name="email" placeholder="alicia@smallworld.fr" required>
-            <!----  Veuillez saisir votre Email Pour etre connecter au site//-->
-
-
-            <label class="Mot">password</label>
-            <input type="password" name="password" placeholder="***********************" required minlength="8"
-              maxlength="15" required>
+            <div class="label">
+              <label class="Email">Email</label>
+              <input type="email" name="email" placeholder="alicia@smallworld.fr" required class="email">
+              <!----  Veuillez saisir votre Email Pour etre connecter au site//-->
 
 
-            <td><input type="submit" value="connexion" id="" class="sub"></td>
+              <label class="Mot">password</label>
+              <input type="password" name="password" placeholder="***********************" required minlength="8"
+                maxlength="15" required class="email">
 
 
-
-            <a href="indexFrancais.html">
-              <img src="../image/drapeauf.png" title="traduire en anglais" class="francais"></a>
-
+              <input type="submit" value="connexion" id="" class="sub">
+            </div>
           </div>
+          <!-- button connexion -->
+          <a href="indexFrancais.html">
+            <img src="../image/drapeauf.png" title="traduire en anglais" class="francais"></a>
+    </div>
 
 
 
 
 
-          <div class="garder">
+    <div class="garder">
 
-            <em><label class="gs">Keep me logged in</em></label>
-            <input type="checkbox" name="qualites" value=" garder ma session active" class="gsd">
-
-
-
-            <a href="moddepasseoublieanglais.html" class="mdp">
-              <em></label>Forgot your password ?</label></em></a>
-
-          </div>
+      <label class="gs">Keep me logged in</label>
+      <input type="checkbox" name="qualites" value=" garder ma session active" class="gsd">
 
 
 
-          <!--  Mot de passe oublier voici le lien qui relie 
+      <a href="moddepasseoublieanglais.html" class="mdp">
+        <label>Forgot your password ?</label></a>
+
+    </div>
+
+
+
+    <!--  Mot de passe oublier voici le lien qui relie 
                     la page index.html et la passe moddepasseoublier.html celà-->
 
-        </form>
+    </form>
 
-      </nav>
+    </nav>
     </div>
 
   </header>
