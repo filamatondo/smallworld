@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -15,7 +15,7 @@
 
   <title>small world</title>
 
-  <link rel=" stylesheet" type="text/css" href="../css/stylesanglais.css">
+  <link rel=" stylesheet" type="text/css" href="../css/stylesfranais.css">
   <!-- lien de la page index.html et la page styles.css-->
 
 
@@ -23,18 +23,20 @@
 
 
 <body>
+
   <header>
 
     <div class="header">
-
       <a href="#">
         <h1 class="Small"> Small World </h1>
       </a>
+
       <!-- Titre de l'application-->
 
       <nav class="conne">
 
         <form action="connexionfrancais.html" method="POST">
+
 
           <div class="email">
             <div class="label">
@@ -42,54 +44,44 @@
               <input type="email" name="email" placeholder="alicia@smallworld.fr" required class="email">
               <!----  Veuillez saisir votre Email Pour etre connecter au site//-->
 
-
-              <label class="Mot">password</label>
+              <label class="Mot">Password</label>
               <input type="password" name="password" placeholder="***********************" required minlength="8"
                 maxlength="15" required class="email">
-
+              <!-- input de mot de passe -->
 
               <input type="submit" value="connexion" id="" class="sub">
             </div>
           </div>
-          <!-- button connexion -->
-          <a href="indexFrancais.html">
-            <img src="../image/drapeauf.png" title="traduire en anglais" class="francais"></a>
-    </div>
+          <!-- button de connexion -->
 
 
+          <div class="garder">
+            <label class="gs">Keep me logged in</label>
+            <input type="checkbox" name="qualites" value=" garder ma session active" class="gsd">
+            <!-- garder ma session active -->
 
-
-
-    <div class="garder">
-
-      <label class="gs">Keep me logged in</label>
-      <input type="checkbox" name="qualites" value=" garder ma session active" class="gsd">
-
-
-
-      <a href="moddepasseoublieanglais.html" class="mdp">
-        <label>Forgot your password ?</label></a>
-
-    </div>
-
-
-
-    <!--  Mot de passe oublier voici le lien qui relie 
+            <a href="moddepasseoubliefrancais.html">
+              <label class="toto">Forgot your password ?</label></a>
+          </div>
+          <!--  Mot de passe oublier voici le lien qui relie 
                     la page index.html et la passe moddepasseoublier.html celà-->
 
-    </form>
 
-    </nav>
+
+          <a href="indexanglais.html">
+            <img title="traduire en anglais" src="../image/drapeauA.jpg" class="francais">
+          </a>
+
+        </form>
+      </nav>
     </div>
-
   </header>
 
   <!-- slogan du small world-->
 
 
-
   <h2><kbd> Registration </kbd></h2>
-  <footer>
+  <section>
     <!-- Titre pour s'inscrire sur le site small world-->
 
     <form action="connexionfrancais.html" method="POST">
@@ -160,7 +152,7 @@
     </div> -->
 
 
-  </footer>
+  </section>
 </body>
 
 </html>
