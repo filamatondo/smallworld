@@ -39,7 +39,7 @@ h1 {
 /* Mot de passe le titre de input */
 
 .conne {
-  text-align: center;
+  /* text-align: center; */
   margin: 0px;
 
 }
@@ -77,7 +77,6 @@ h1 {
 .GarderMaSessionActive{
   margin-right: 90px;
  
-
 }
 /* Le Code du Mot de passe oublier */
 
@@ -86,20 +85,20 @@ h1 {
   font-size: 14px;
   color: black;
   margin: 0px;
+  text-align: center;
 
 }
 /* class email qui est le parent de mon formulaire Email, mot de passe et connexion */
 
 
 
-.francais {
+.LogoDrapeau{
   width: 30px;
   height: 20px;
   margin-left: 90%;
+  /* margin-top: -90px; */
 
 }
-
-
 
 
 h2 {
