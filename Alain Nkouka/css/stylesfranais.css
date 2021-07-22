@@ -29,6 +29,7 @@ h1 {
   color: #fff;
   font-size: 15px;
 }
+
 /* Balise Email pour géré le titre Email de input de connexion */
 
 .MotDepasse {
@@ -36,6 +37,7 @@ h1 {
   color: #fff;
   margin: 0px;
 }
+
 /* Mot de passe le titre de input */
 
 .conne {
@@ -43,6 +45,7 @@ h1 {
   margin: 0px;
 
 }
+
 /* la classe conne qui est dans le parent Nav. */
 
 
@@ -63,21 +66,22 @@ h1 {
 
 /* Le Code du Mot de passe oublier */
 
-.GarderSession{
+.GarderSession {
   font-size: 15PX;
   color: #fff;
   margin: 0px;
-  
+
 }
 
 /* gS class */
 
 
 
-.GarderMaSessionActive{
+.GarderMaSessionActive {
   margin-right: 90px;
- 
+
 }
+
 /* Le Code du Mot de passe oublier */
 
 
@@ -88,26 +92,25 @@ h1 {
   text-align: center;
 
 }
+
 /* class email qui est le parent de mon formulaire Email, mot de passe et connexion */
 
 
 
-.LogoDrapeau{
+.LogoDrapeau {
   width: 30px;
   height: 20px;
   margin-left: 90%;
-  /* margin-top: -90px; */
 
 }
 
+/* logo image pour changer la langue. */
 
 h2 {
   text-align: center;
-  font-size: 3.5rem;
   font-size: 40px;
   color: rgba(59, 89, 152);
-  height: 5px;
-
+  margin: 0px;
 
 }
 
@@ -115,10 +118,9 @@ h2 {
 
 
 .formulaire {
-
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin: 0px;
 
 }
 
@@ -128,7 +130,7 @@ h2 {
 .date {
   color: #1d212d;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /* la class date */
