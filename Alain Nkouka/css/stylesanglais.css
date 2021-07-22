@@ -2,33 +2,48 @@ body {
   background-color: #fff;
   padding: 0;
   margin: 0;
-
 }
 
 /* Body */
 
 .header {
   background-color: rgb(1, 112, 116);
-  /* height: 100px; */
-
+  height: 100PX;
+  margin: 0px;
 
 }
 
 /* la balise header  */
 
-.Small {
+h1 {
   font-size: 30px;
-  left: 20px;
   color: #fff;
+  margin: 0px;
 
 }
 
 /* la classe small  qui est le titre de ma page small world*/
 
-.conne {
+
+.Email {
   color: #fff;
-  font-size: 20px;
-  text-align: center;
+  font-size: 15px;
+}
+
+/* Balise Email pour géré le titre Email de input de connexion */
+
+.MotDepasse {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px;
+}
+
+/* Mot de passe le titre de input */
+
+.conne {
+  /* text-align: center; */
+  margin: 0px;
+
 }
 
 /* la classe conne qui est dans le parent Nav. */
@@ -46,63 +61,56 @@ body {
 .toto {
   color: #fff;
   font-size: 15px;
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 /* Le Code du Mot de passe oublier */
 
-.gs {
+.GarderSession {
   font-size: 15PX;
+  color: #fff;
+  margin: 0px;
+
 }
 
 /* gS class */
 
 
 
-.gsd {
-  color: #fff;
-  font-size: 10px;
-  margin-right: 80px;
-  margin-top: 15px;
+.GarderMaSessionActive {
+  margin-right: 90px;
+
 }
 
 /* Le Code du Mot de passe oublier */
 
 
-.Email {
-  font-size: 16px;
-  color: #fff;
+.email {
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+  text-align: center;
+
 }
 
-/* class email */
-
-.Mot {
-  font-size: 16px;
-  color: #fff;
-}
-
-/* class mot */
+/* class email qui est le parent de mon formulaire Email, mot de passe et connexion */
 
 
 
-.francais {
+.LogoDrapeau {
   width: 30px;
   height: 20px;
   margin-left: 90%;
-  /* margin-top: -40px; */
 
 }
 
-
-
+/* logo image pour changer la langue. */
 
 h2 {
   text-align: center;
-  font-size: 3.5rem;
   font-size: 40px;
   color: rgba(59, 89, 152);
-  height: 5px;
-
+  margin: 0px;
 
 }
 
@@ -110,10 +118,9 @@ h2 {
 
 
 .formulaire {
-
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin: 0px;
 
 }
 
@@ -131,7 +138,7 @@ h2 {
 
 .sex {
   text-align: center;
-  font-size: 19px;
+  font-size: 15px;
   color: black;
   border-bottom: blue;
 }
@@ -144,31 +151,26 @@ h2 {
   height: 30px;
   width: 220px;
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 /* class champ */
 
-.message {
-  text-align: center;
-  color: gray;
-}
 
-/* class message */
 
 .connexion {
   text-align: center;
-  font-size: 20px;
-
 }
 
 /* class connexion */
 
 
 .inscrire {
-  height: 50px;
+  height: 45px;
   background-color: rgb(5, 107, 99);
   color: #fff;
   border-radius: 30px;
   font-size: 20px;
 }
+
+/* bouton connexion de ma 1ere page */

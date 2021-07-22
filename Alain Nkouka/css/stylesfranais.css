@@ -138,7 +138,7 @@ h2 {
 
 .sex {
   text-align: center;
-  font-size: 19px;
+  font-size: 15px;
   color: black;
   border-bottom: blue;
 }
@@ -151,31 +151,26 @@ h2 {
   height: 30px;
   width: 220px;
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 /* class champ */
 
-.message {
-  text-align: center;
-  color: gray;
-}
 
-/* class message */
 
 .connexion {
   text-align: center;
-  font-size: 20px;
-
 }
 
 /* class connexion */
 
 
 .inscrire {
-  height: 50px;
+  height: 45px;
   background-color: rgb(5, 107, 99);
   color: #fff;
   border-radius: 30px;
   font-size: 20px;
 }
+
+/* bouton connexion de ma 1ere page */
