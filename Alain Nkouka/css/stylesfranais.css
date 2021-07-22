@@ -2,36 +2,47 @@ body {
   background-color: #fff;
   padding: 0;
   margin: 0;
-
 }
 
 /* Body */
 
 .header {
   background-color: rgb(1, 112, 116);
-  height: 100px;
-
+  height: 100PX;
+  margin: 0px;
 
 }
 
 /* la balise header  */
 
-.Small {
+h1 {
   font-size: 30px;
-  position: absolute;
-  left: 20px;
   color: #fff;
+  margin: 0px;
 
 }
 
 /* la classe small  qui est le titre de ma page small world*/
 
-.conne {
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-}
 
+.Email {
+  color: #fff;
+  font-size: 15px;
+}
+/* Balise Email pour géré le titre Email de input de connexion */
+
+.MotDepasse {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px;
+}
+/* Mot de passe le titre de input */
+
+.conne {
+  text-align: center;
+  margin: 0px;
+
+}
 /* la classe conne qui est dans le parent Nav. */
 
 
@@ -47,42 +58,37 @@ body {
 .toto {
   color: #fff;
   font-size: 15px;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 /* Le Code du Mot de passe oublier */
 
-.gs {
+.GarderSession{
   font-size: 15PX;
+  color: #fff;
+  margin: 0px;
+  
 }
 
 /* gS class */
 
 
 
-.gsd {
-  color: #fff;
-  font-size: 10px;
-  margin-right: 80px;
-  margin-top: 15px;
-}
+.GarderMaSessionActive{
+  margin-right: 90px;
+ 
 
+}
 /* Le Code du Mot de passe oublier */
 
 
-.Email {
-  font-size: 16px;
-  color: #fff;
+.email {
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+
 }
-
-/* class email */
-
-.Mot {
-  font-size: 16px;
-  color: #fff;
-}
-
-/* class mot */
+/* class email qui est le parent de mon formulaire Email, mot de passe et connexion */
 
 
 
@@ -90,7 +96,6 @@ body {
   width: 30px;
   height: 20px;
   margin-left: 90%;
-  /* margin-top: -40px; */
 
 }
 
