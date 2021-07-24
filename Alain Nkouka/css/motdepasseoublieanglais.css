@@ -1,78 +1,74 @@
-body{
-  background-color:#DCDCDC;
+body {
+  background-color: #DCDCDC;
   margin: 0px;
 }
 
 
-header{ 
-  background-color:rgb(1, 112, 116);
-  border-bottom-color: black;
+header {
+  background-color: rgb(1, 112, 116);
   margin: 0px;
-  border-bottom-color:#ffffff;
   height: 70px;
-  /* height: 50px; */
+
 }
 
 
-h1{
-  color:#fff;
+h1 {
+  color: #fff;
   margin: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
+  font-size: 34PX;
+  /* margin-left: 10px; */
 }
-/* titre h1 */
+
+/* titre de ma page */
 
 
-h2{
+h2 {
   color: black;
   text-align: center;
-  font-size: 40px;
+  font-size: 27px;
 }
-/* TITRE H2 */
 
+/* titre deux de la page */
 
-main{
+main {
   background-color: #fff;
-  height: 300px;
-  width: 1190px;
-  border-radius: 20px; 
-  margin:45px;
-   justify-content: center;
-}
-/*  Le Main est le parent du bas de la page, dans cette parti j'ai le formulaire 
-qui me permet
- de modifier le mot de passe, l'utilisateur peut bien modifier le mot de passe */
-
-.forr{
-  font-size: 24px;
-  text-align: center; 
+  text-align: center;
   margin:0px;
-}
-/* forr est le nom de la classe que j'ai attibué à la classe de form. 
-avec cette classe, j'ai bien ajuster mon texte au centre, la taille du 
- taille  ainsi que la marge*/
 
- .champ{
+}
+
+/* le parent des input et du button connexion */
+
+.forr {
+  font-size: 20px;
+  margin: 0px;
+}
+
+/* forr est la classe de la balise form */
+
+.champ {
   height: 40px;
   width: 250px;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
-/* champ est la classe des div des input */
 
-.Record{
-  text-align: center;
+/* input et champ est leur classe. */
+
+.Record {
   margin-top: 20px;
 
 }
-/* touche connexion */
 
-.submit{
+/* touche de connexion */
+
+.submit {
   height: 50px;
   width: 80px;
   background-color: rgb(1, 112, 116);
-  color:#fff;
+  color: #fff;
   border-radius: 30px;
-  font-size:15px;
+  font-size: 15px;
 }
-/* touche connexion */
+
+/* touche de connexion  */

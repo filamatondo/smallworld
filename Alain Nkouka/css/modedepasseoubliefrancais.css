@@ -1,76 +1,74 @@
-body{
-  background-color:#DCDCDC;
+body {
+  background-color: #DCDCDC;
   margin: 0px;
 }
 
 
-header{ 
-  background-color:rgb(1, 112, 116);
-  border-bottom-color: black;
+header {
+  background-color: rgb(1, 112, 116);
   margin: 0px;
-  border-bottom-color:#ffffff;
   height: 70px;
-  /* height: 50px; */
+
 }
 
 
-h1{
-  color:#fff;
+h1 {
+  color: #fff;
   margin: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
+  font-size: 34PX;
+  /* margin-left: 10px; */
 }
+
 /* titre de ma page */
 
 
-h2{
+h2 {
   color: black;
   text-align: center;
-  font-size: 40px;
+  font-size: 27px;
 }
 
 /* titre deux de la page */
 
-main{
+main {
   background-color: #fff;
-  height: 300px;
-  width: 1190px;
-  border-radius: 20px; 
-  margin:45px;
-   justify-content: center;
+  text-align: center;
+  margin:0px;
 
 }
 
 /* le parent des input et du button connexion */
 
-.forr{
-  font-size: 24px;
-  padding-left: 0px;
-  text-align: center; 
+.forr {
+  font-size: 20px;
+  margin: 0px;
 }
+
 /* forr est la classe de la balise form */
 
-.champ{
+.champ {
   height: 40px;
   width: 250px;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
+
 /* input et champ est leur classe. */
 
-.Record{
-  text-align: center;
+.Record {
   margin-top: 20px;
 
 }
+
 /* touche de connexion */
 
-.submit{
+.submit {
   height: 50px;
   width: 80px;
   background-color: rgb(1, 112, 116);
-  color:#fff;
+  color: #fff;
   border-radius: 30px;
-  font-size:15px;
+  font-size: 15px;
 }
+
 /* touche de connexion  */

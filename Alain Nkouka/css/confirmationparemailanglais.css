@@ -2,45 +2,39 @@ body{
   background-color:#DCDCDC;
   margin: 0px;
 }
-/* body */
+/* body  */
 
 header{ 
   background-color:rgb(1, 112, 116);
-  border-bottom-color: black;
   margin: 0px;
-  border-bottom-color:#ffffff;
   height: 70px;
-  /* height: 50px; */
+ 
 }
-
-/* classe header */
 
 
 h1{
   color:#fff;
   margin: 0px;
-  margin-top: 10px;
   margin-left: 10px;
 }
-/* titre h1 */
+/* titre de la page  */
 
 h2{
   color: black;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
 }
+ /* 2ieme titre */
 
-/* titre h2  */
 
-form{
+.form{
   background-color: #fff;
-  height: 200px;
-  width: 1130px;
-  border-radius: 20px; 
-  margin: 80px;
-  text-align: center;
+  border-radius: 20px;
+  text-align: center; 
+  margin: 0px;
 }
- /* balise form */
+
+/* la classe de la div qui prends encompte la parti forme de la page */
 
 
 .champ{
@@ -49,17 +43,16 @@ form{
   text-align: center;
   margin-top: 50px;
 }
-
-/* champ qui est le fils de la balise form, champ est la class des input */
+/* classe champ inpt  */
 
 .submit{
   height: 50px;
   width: 80px;
-  background-color: rgb(1, 112, 116);
+  background-color:rgb(1, 112, 116);
   color:#fff;
   border-radius: 30px;
   font-size:20px;
   margin-top: 20px;
 }
-/* button connexion */
  
+/* la touche connexion  */
