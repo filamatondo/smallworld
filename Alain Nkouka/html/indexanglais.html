@@ -25,132 +25,122 @@
 <body>
 
   <header>
+      <h1>Small world </h1>
+  
 
-    <div class="header">
+    <span class="span">
+      <form action="connexionanglais.html" method="POST">
 
-      <h1>Small World </h1>
+        <table class=" table">
+          <tr>
+            <td>Email</td>
+            <td>password</td>
+          </tr>
+          <tr>
+            <td> <input type="email" name="email" placeholder="alicia@yahoo.fr" required></td>
 
+            <td> <input type="password" name="password" placeholder="*************" required minlength="8"
+                maxlength="15"></td>
 
-      <!-- Titre de l'application-->
-
-      <nav class="conne">
-
-        <form action="connexionfrancais.html" method="POST">
-
-
-          <div class="email">
-            <div class="label">
-              <label class="Email">Email</label>
-              <input type="email" name="email" placeholder="alicia@smallworld.fr" required class="email">
-              <!----  Veuillez saisir votre Email Pour etre connecter au site//-->
-
-              <label class="MotDepasse">Password</label>
-              <input type="password" name="password" placeholder="***********************" required minlength="8"
-                maxlength="15" required class="email">
-              <!-- input de mot de passe -->
-
-              <input type="submit" value="connexion" id="" class="sub">
-            </div>
-
-            <!-- button de connexion -->
-
-
-            <div class="garder">
-              <label class="GarderSession">Keep me logged in</label>
+            <td> <input type="submit" value="connexion" id=""></td>
+          </tr>
+          <tr>
+            <td> <label class="GarderSession">Keep me logged in</label>
               <input type="checkbox" name="qualites" value=" garder ma session active" class="GarderMaSessionActive">
-              <!-- garder ma session active -->
+            </td>
 
-              <a href="moddepasseoubliefrancais.html">
-                <label class="toto">Forgot your password ?</label></a>
-            </div>
-          </div>
-          <!--  Mot de passe oublier voici le lien qui relie 
-                    la page index.html et la passe moddepasseoublier.html celà-->
 
-          <a href="indexFrancais.html">
-            <img title="traduire en Français" src="../image/drapeauf.png" class="LogoDrapeau">
-          </a>
+            <td><a href="moddepasseoublieanglais.html" class="mdpo">Forgot your password?</a></td>
+          </tr>
 
-        </form>
-      </nav>
-    </div>
+
+        </table>
+      </form>
+      </div>
+    </span>
+
+    <a href="indexFrancais.html">
+      <img class="LogoDrapeau" title="traduire en Français" src="../image/drapeauf.png">
+    </a>
   </header>
 
-  <!-- slogan du small world-->
-
-
-
   <section>
+
     <h2><kbd> Registration </kbd></h2>
+
     <!-- Titre pour s'inscrire sur le site small world-->
 
-    <form action="connexionfrancais.html" method="POST">
+
+
+    <form action="connexionanglais.html" method="POST">
 
       <div class="formulaire">
         <br>
-        <input class="champ" type="text" name="Nom" placeholder="Last name" required>
+        <input class="champs" type="text" name="Nom" placeholder="Last name" required>
         <!--// Veuillez saisir Mot de Email  //-->
 
-        <input class="champ" type="text" name="Prénom" placeholder="Grist name" required>
+        <input class="champs" type="text" name="Prénom" placeholder="Frist name" required>
       </div>
       <!--// tapez votre Prénoms //-->
 
-      <div class="formulaire">
-        <br><input class=" champ" type="email" name="Email" placeholder="Email" required>
-        <!---- Veuillez Saisir votre Email Pour etre connecter au site//-->
 
-        <input class="champ" type="email" name="Email" placeholder="Confirm your Email" required>
+      <div class="formulaire">
+        <br><input class=" champs" type="email" name="email" placeholder="Email" required>
+        <!----Veuillez Saisir votre Email Pour etre connecter au site//-->
+
+        <input class="champs" type="email" name="Email" placeholder="Confirm your email" required>
       </div>
       <!--// Veuillez confirmer votre Mot de Passe//-->
 
 
       <div class=" formulaire"><br>
-        <input class="champ" type="password" name="Mot de Passe" placeholder="password" minlength="8" maxlength="12"
-          required>
+        <input class="champs" type="password" name="Mot de passe" placeholder="password" minlength="8"
+          maxlength="12" required>
         <!--// Veuillez saisir votre Mot de Passe //-->
 
-        <input class="champ" type="password" name="Mot de passe" placeholder="Confirm your password" minlength="8"
+
+        <input class="champs" type="password" name="Mot de passe" placeholder="Confirm your password" minlength="8"
           maxlength="12" required>
       </div>
       <!--// Veuillez comfirmation du Mot de Passe du site //-->
 
 
-      <div class="date"><br>Date of brith:
-        <p4 class="para"><input required type="date" max="2050-01-01" min="1930-01-01" /></p4>
+      <div class="date"><br>Date of birth:
+        <p1 class="para"><input required type="date" max="2050-01-01" min="1930-01-01"></p1>
       </div>
       <!-- la date de naissance-->
 
-      <div class="sex"><br>
-        Sex: <input required type="radio" name="sex" value="H" checked required> Man
-        <INPUT type="radio" name="sex" value="F"> Women</td>
+
+      <div class="sexe"><br> Sex: <input required type="radio" name="sex" value="H" checked required>Man
+        <INPUT type="radio" name="sex" value="F">Women
       </div>
       <!-- séléction du sexe-->
 
 
 
 
-      <div class="connexion"><br>
-        <a href="connexion.html"><kbd><input type="submit" value="Register" class="inscrire"></a></kbd>
+      <div class="INSCRIPTION"><br>
+        <kbd><input type="submit" value="Register" class="inscrire"></kbd>
       </div>
       <!--Veuille cliquer ici pour s'inscrire à smal world-->
 
     </form>
-
-
-    <!-- <div class="message">
-      <small>
-        <ol>Il existe des tas de façons de rester en contact avec vos proches,</ol>
-        <ol>
-          <font color="#0000FF">
-            <kdb>Small world</kdb>
-          </font> est un petit moyen sympa de garder
-        </ol>
-        <ol>contact avec le monde; C'est super facile à utiliser</ol>
-      </small>
-    </div> -->
-
-
   </section>
+  <footer>
+    <div class="message">
+
+      <ul>
+
+        <ol>There are lots of ways to stay in touch with your loved ones</ol>
+
+        <ol>Small worldis a cool little way to keep in touch with </ol>
+        <ol>the world; It's super easy to use</ol>
+      </ul>
+    </div>
+
+  </footer>
+
+ 
 </body>
 
 </html>

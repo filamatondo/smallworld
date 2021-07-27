@@ -1,37 +1,35 @@
 body {
-  background-color: #DCDCDC;
+  background-color:#ffffff;
   margin: 0px;
 }
 
 
 header {
-  background-color: rgb(1, 112, 116);
+  background-color: rgb(59, 152, 147);
   margin: 0px;
-  height: 70px;
+  height: 90px;
 
 }
 
+ /*balise header  */
 
 h1 {
   color: #fff;
   margin: 0px;
-  font-size: 34PX;
-  /* margin-left: 10px; */
+  font-size: 38PX;
 }
 
 /* titre de ma page */
 
 
 h2 {
-  color: black;
+  color: blue;
   text-align: center;
-  font-size: 27px;
+  font-size: 40px;
 }
-
 /* titre deux de la page */
 
 main {
-  background-color: #fff;
   text-align: center;
   margin:0px;
 
@@ -39,18 +37,22 @@ main {
 
 /* le parent des input et du button connexion */
 
-.forr {
+.form {
   font-size: 20px;
   margin: 0px;
 }
 
-/* forr est la classe de la balise form */
+/* form est la classe de la balise form */
 
-.champ {
-  height: 40px;
-  width: 250px;
+.champs {
+  height: 35px;
+  width: 270px;
+  font-size: 15px;
   margin-top: 30px;
-  text-align: center;
+  border-color: rgb(187, 187, 190);
+  border-radius: 5px;
+  border-style: double;
+  color: black;
 }
 
 /* input et champ est leur classe. */
@@ -63,12 +65,16 @@ main {
 /* touche de connexion */
 
 .submit {
-  height: 50px;
-  width: 80px;
-  background-color: rgb(1, 112, 116);
-  color: #fff;
-  border-radius: 30px;
-  font-size: 15px;
+  height: 45px;
+  width: 270px;
+  background-color: #42b742;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #fff;
+  font-size: 20px;
+  border-style: double;
+  cursor: pointer;
+  margin-top: 40px;
 }
 
 /* touche de connexion  */

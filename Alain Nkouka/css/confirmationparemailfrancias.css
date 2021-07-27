@@ -1,58 +1,69 @@
-body{
-  background-color:#DCDCDC;
+body {
+  background-color:#ffffff;
   margin: 0px;
 }
-/* body  */
+/* Balise Body  */
 
-header{ 
-  background-color:rgb(1, 112, 116);
+header {
+  background-color: rgb(59, 152, 147);
   margin: 0px;
-  height: 70px;
- 
+  height: 90px;
+
 }
 
+ /*balise header  */
 
-h1{
-  color:#fff;
+h1 {
+  color: #fff;
   margin: 0px;
-  margin-left: 10px;
+  font-size: 38PX;
 }
-/* titre de la page  */
 
-h2{
+/* titre de ma page */
+
+
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+}
+/* titre deux de la page */
+
+
+.form {
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* form est la classe de la balise form */
+
+.champs {
+  height: 35px;
+  width: 270px;
+  font-size: 15px;
+  margin-top: 30px;
+  border-color: rgb(187, 187, 190);
+  border-radius: 5px;
+  border-style: double;
   color: black;
-  text-align: center;
-  font-size: 27px;
-}
- /* 2ieme titre */
-
-
-.form{
-  background-color: #fff;
-  border-radius: 20px;
-  text-align: center; 
-  margin: 0px;
 }
 
-/* la classe de la div qui prends encompte la parti forme de la page */
+/* input et champ est leur classe. */
 
 
-.champ{
-  height: 40px;
-  width: 250px;
-  text-align: center;
-  margin-top: 50px;
+
+.submit {
+  height: 45px;
+  width: 270px;
+  background-color: #42b742;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #fff;
+  font-size: 20px;
+  border-style: double;
+  cursor: pointer;
+  margin-top: 40px;
 }
-/* classe champ inpt  */
 
-.submit{
-  height: 50px;
-  width: 80px;
-  background-color:rgb(1, 112, 116);
-  color:#fff;
-  border-radius: 30px;
-  font-size:20px;
-  margin-top: 20px;
-}
- 
-/* la touche connexion  */
+/* touche de connexion  */
