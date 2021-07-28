@@ -181,7 +181,7 @@ body {
 
 
 .age{
-  background-color:teal;
+  color: #ffffff;
 }
 /* age est l'enfant du parent section, */
 
@@ -218,12 +218,12 @@ h3{
 /* menu fils, input de ma liste  */
 
 .liste {
-    background-color: #6d2de6;
+    background-color:#536bd8;
     border-radius: 8px;
     box-shadow: 0px 2px 6px 0px #3605057a;
     padding: 8px;
-    color: #fff;
-    margin: 10px;
+    color:black;
+    margin: 0px;
     border-bottom: honeydew;
   
 }
