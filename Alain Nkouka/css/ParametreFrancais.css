@@ -145,14 +145,7 @@ header .navbar-expand-lg h1 {
 
 
 
-.div6 {
-  height: 20px;
-  width: 20px;
-}
-
-/* Taille du logo Localisation */
-
-.localisation {
+.paramètres {
   font-size: 12px;
   color: black;
 }
@@ -205,6 +198,12 @@ header .navbar-expand-lg h1 {
 
 .langua{
   display: flex;
+  margin-left:10px; 
+  
+}
+
+.language{
+  margin-left: 2.1%; 
 }
 
 .lang{
